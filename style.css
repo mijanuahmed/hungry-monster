@@ -1,0 +1,36 @@
+.meal-name{
+    font-size: 30px;
+    color:magenta
+}
+
+.meal{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#meals{
+    margin: 40px 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.thumbnail{
+    width: 200px;
+    height: 180px;
+}
+
+#meal-detail{
+border: 3px solid lightsalmon;
+border-radius: 10px;
+background-color: pink;
+margin: 50px 480px;
+width: 300px;
+}
+
+#invalid-search-message{
+    text-align: center;
+}
